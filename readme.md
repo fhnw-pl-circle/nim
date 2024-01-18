@@ -16,4 +16,12 @@ Download and install *choosenim* (a rustup inspired tool for managing Nim and it
 
 Run `nim r --outdir=build [EXAMPLE].nim` (`r` = compile and run). E.g. `nim r --outdir=build helloworld.nim`
 
-Tor run a nimble package with a dependancy (e.g. ./app directory) run `nimble run -y` (`-y` will accept download of dependancy).
+Tor run a nimble package with a dependency (e.g. ./app directory) run `nimble run -y` (`-y` will accept download of dependency).
+
+## Resources
+
+* 💻 [Nim Manual](https://nim-lang.org/docs/manual.html)
+
+* 📖 [Nim in Action](https://learning.oreilly.com/library/view/nim-in-action/9781617293436/) (free on O'Reilly with FHNW account)
+
+* 💻 [Nim by Example](https://nim-by-example.github.io/)
