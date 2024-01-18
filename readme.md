@@ -12,3 +12,8 @@ When using VS Code one can simply run the dev container.
 **Manual installation**
 Download and install *choosenim* (a rustup inspired tool for managing Nim and its package manager nimble) from the official [website](https://nim-lang.org/install.html). Then install Nim version 2.0.2 (might cause trouble on windows, if so use 2.0.0, the examples should work as well).
 
+**Run an example**
+
+Run `nim r --outdir=build [EXAMPLE].nim` (`r` = compile and run). E.g. `nim r --outdir=build helloworld.nim`
+
+Tor run a nimble package with a dependancy (e.g. ./app directory) run `nimble run -y` (`-y` will accept download of dependancy).
