@@ -1,0 +1,14 @@
+{
+    "name": "nim-dev-container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": ["nimsaem.nimvscode"]
+        }
+    },
+    "features": {
+        // "ghcr.io/devcontainers/features/desktop-lite:1": {} // desktop-lite https://github.com/devcontainers/features/tree/main/src/desktop-lite
+    }
+}
