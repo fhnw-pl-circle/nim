@@ -36,3 +36,6 @@ echo myMax(2, 15)
 # type mismatche:
 # echo myMax(2, 1.5)
 # echo myMax(@[1,2], @[2,3]) # there is no < for seq[int]
+
+# Generics are invariant
+# There are more experimental features (in/out) for variance
