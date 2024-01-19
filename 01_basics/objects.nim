@@ -6,12 +6,10 @@ type
     Person* = object # * makrs visibility outside the module
         name*: string
         age*: int8
-        # speak: proc(word: string)
 
 let simon = Person(
     name: "Simon",
     age: 25,
-    # speak: (w: string) => echo w
 )
 
 # OBJECTS VS TUPLES
