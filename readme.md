@@ -18,6 +18,25 @@ Run `nim r --outdir=build [EXAMPLE].nim` (`r` = compile and run). E.g. `nim r --
 
 Tor run a nimble package with a dependency (e.g. ./app directory) run `nimble run -y` (`-y` will accept download of dependency).
 
+## Presentation
+
+Hello world in Nim: `echo "hello world`.
+
+1. Basics
+    1. [intro](./01_basics/basics.nim)
+    1. [objects and tuples](./01_basics/objects.nim)
+    1. [OOP](./01_basics/oop.nim)
+1. Concurrency
+    1. [Parallel](./02_concurrent/parallel.nim)
+    1. [Async](./02_concurrent/async.nim)
+1. Meta programming
+    1. [Generics](./03_meta/generics.nim)
+    1. [Templates](./03_meta/templates.nim)
+    1. [Macro](./03_meta/macros.nim) (just a short intro)
+1. Some more interesting stuff (just a short overview over more topics)
+    1. [Memory](./04_more/memory.nim)
+    1. [Effect system](./04_more/effects.nim)
+
 ## Resources
 
 * 💻 [Nim Manual](https://nim-lang.org/docs/manual.html)
